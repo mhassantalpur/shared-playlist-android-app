@@ -1,0 +1,8 @@
+<resources>
+
+    <color name="primary">#0971c7</color>
+    <color name="primary_pressed">#0c89f1</color>
+    <color name="white">#fff</color>
+    <color name="listview_item_pressed">#19000000</color>
+
+</resources>

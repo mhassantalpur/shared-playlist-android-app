@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/buttonMakeTrip"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_color_state"
+        android:text="@string/button_make_a_group"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/buttonJoinTrip"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_color_state"
+        android:text="@string/button_join_a_group"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/buttonDisconnect"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_color_state"
+        android:text="Disconnect"
+        android:textColor="#fff" />
+</LinearLayout>

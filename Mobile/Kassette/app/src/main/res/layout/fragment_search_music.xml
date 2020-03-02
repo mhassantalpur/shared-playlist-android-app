@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:clickable="false">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        >
+
+        <EditText
+            android:maxLines="1"
+            android:id="@+id/songEditText"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:autoText="true"
+            android:hint="Song name"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:id="@+id/searchButton"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/songEditText"
+            android:background="@drawable/button_color_state"
+            android:text="Search"
+            android:textColor="#fff"
+            android:src="@drawable/abc_ic_search_api_mtrl_alpha" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/trackList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

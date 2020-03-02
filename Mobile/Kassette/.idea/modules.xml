@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Kassette.iml" filepath="$PROJECT_DIR$/Kassette.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spotifysdk-1.0.0-beta8/spotifysdk-1.0.0-beta8.iml" filepath="$PROJECT_DIR$/spotifysdk-1.0.0-beta8/spotifysdk-1.0.0-beta8.iml" />
+    </modules>
+  </component>
+</project>
+

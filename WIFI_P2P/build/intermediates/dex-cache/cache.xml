@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\ALI\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="C:\Users\ALI\Documents\CSE 190\Kassette\kassette\WIFI_P2P\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0-0f23740f932990d216d826a81db184ef6efce83a.jar" />
+    </item>
+
+</items>

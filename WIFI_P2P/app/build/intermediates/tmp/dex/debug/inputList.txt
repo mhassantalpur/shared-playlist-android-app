@@ -1,0 +1,2 @@
+C:\Users\ALI\Documents\CSE 190\Kassette\kassette\WIFI_P2P\app\build\intermediates\classes\debug
+C:\Users\ALI\Documents\CSE 190\Kassette\kassette\WIFI_P2P\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0-0f23740f932990d216d826a81db184ef6efce83a.jar

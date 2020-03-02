@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textViewJoinTripName"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:background="@drawable/actionbar_background"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"/>
+
+    <EditText
+        android:id="@+id/editTextJoinTripPassword"
+        android:inputType="number"
+        android:digits="0123456789"
+        android:maxLength="4"
+        android:imeOptions="actionDone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="30dp"
+        android:hint="@string/hint_join_trip_password" />
+
+</LinearLayout>

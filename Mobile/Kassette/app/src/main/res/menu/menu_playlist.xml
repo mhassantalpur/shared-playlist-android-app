@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.kassette.PlayListFragment">
+
+    <item
+        android:id="@+id/action_exit"
+        android:title="@string/action_exit"
+        android:icon="@drawable/exit"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_spotify"
+        android:title="Spotify"
+        android:icon="@drawable/spotify_button"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_add_song"
+        android:title="@string/action_add_song"
+        android:icon="@drawable/add"
+        app:showAsAction="ifRoom"/>
+</menu>
